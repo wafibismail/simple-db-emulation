@@ -49,13 +49,15 @@ npm install nodemon
 
 After successful installation, open your package.json, locate these lines (initially it won't contain "dev": "...):
 
-```json
+```javascript
 "scripts": {
     "start": "node ./bin/www", //Add a comma at the end of this line
     "dev": "nodemon -e html,js,css ./bin/www" //Add this entire line
   },
 ```
 
+Note: Remove the comments. Comments aren't allowed in .json files
+<br>
 Now save the file and test the app by running:
 
 ```
