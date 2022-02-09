@@ -84,7 +84,7 @@ Save the file. The string "listening at port:8080" will appear on the console.
 
 <br>
 
-Now you can open up a browser and load http//:localhost:8080
+Now you can open up a browser and load http://localhost:8080
 
 <br>
 
